@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_pages_stranicza_otdelnoj_uslugi",
+  "info": {
+    "displayName": "Страница отдельной услуги"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Заголовок"
+    },
+    "Img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Снос и демонтаж",
+        "Земляные работы",
+        "Экологическое сопровождение",
+        "Другие услуги"
+      ],
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "default": "Текст описания услуги, оставьте пустым, если никакого краткого описания нет"
+    },
+    "TextBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "content-blocks.tekstovyj-blok-ob-usluge"
+    }
+  }
+}

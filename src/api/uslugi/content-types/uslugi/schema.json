@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uslugis",
+  "info": {
+    "singularName": "uslugi",
+    "pluralName": "uslugis",
+    "displayName": "Услуги"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "allServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.stranicza-otdelnoj-uslugi"
+    }
+  }
+}

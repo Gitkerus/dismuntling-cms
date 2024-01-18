@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_blocks_tekstovyj_blok_ob_usluge",
+  "info": {
+    "displayName": "Текстовый блок об услуге"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Заголовок"
+    },
+    "Img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ImageLeftSided": {
+      "type": "boolean",
+      "default": false
+    },
+    "Text": {
+      "type": "richtext",
+      "default": "Текст блока",
+      "required": true
+    }
+  }
+}
